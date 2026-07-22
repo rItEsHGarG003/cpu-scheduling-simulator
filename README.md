@@ -65,3 +65,8 @@ Features
 ✔ Turnaround Time Calculation
 ✔ Input Validation
 ✔ Save Results to output.txt
+
+
+## Future Improvements
+- Add Priority Scheduling with preemption
+- GUI-based visualization using SFML or Qt
