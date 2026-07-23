@@ -1,7 +1,7 @@
 CPU Scheduling Simulator
 =========================
 
-This is a C++ CPU Scheduling Simulator that demonstrates four scheduling algorithms:
+This project was built to understand how different CPU scheduling algorithms work. It allows users to enter process details, execute different scheduling algorithms, compare their performance, and view the calculated scheduling metrics.
 
 1. First Come First Serve (FCFS)
 2. Shortest Job First (SJF - Non Preemptive)
@@ -14,7 +14,15 @@ The simulator calculates Completion Time, Waiting Time, Turnaround Time, display
 How to run
 ----------
 
-Open this folder in VS Code and run this in the terminal:
+Clone the repository
+
+git clone ...
+
+Open the project folder
+
+Compile
+
+Run
 
 g++ -std=c++17 -o scheduler main.cpp fcfs.cpp sjf.cpp rr.cpp priority.cpp
 
@@ -65,6 +73,7 @@ Features
 ✔ Turnaround Time Calculation
 ✔ Input Validation
 ✔ Save Results to output.txt
+
 
 
 ## Future Improvements

@@ -2,6 +2,7 @@
 #include <vector>
 #include <fstream>
 #include <iomanip>
+#include <climits>
 #include "process.h"
 #include "fcfs.h"
 #include "sjf.h"
@@ -38,7 +39,7 @@ void saveToFile(string algorithmName, vector<Process> p, float avgWT, float avgT
 vector<Process> getInput() {
     int n;
 
-    // number of processes validate karo
+    // Validate process count
     do {
         cout << "Enter number of processes (1-10): ";
         cin >> n;
@@ -57,7 +58,7 @@ vector<Process> getInput() {
 
         cout << "\nProcess " << p[i].name << endl;
 
-        // arrival time validate karo
+        // Validate arrival time
         do {
             cout << "Arrival Time (>= 0): ";
             cin >> p[i].at;
@@ -66,7 +67,7 @@ vector<Process> getInput() {
             }
         } while (p[i].at < 0);
 
-        // burst time validate karo
+        // Validate burst time
         do {
             cout << "Burst Time (>= 1): ";
             cin >> p[i].bt;
@@ -75,7 +76,7 @@ vector<Process> getInput() {
             }
         } while (p[i].bt <= 0);
 
-        // priority validate karo
+        // Validate priority
         do {
             cout << "Priority (1 = highest, max 10): ";
             cin >> p[i].priority;
