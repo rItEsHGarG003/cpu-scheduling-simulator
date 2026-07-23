@@ -1,0 +1,10 @@
+# Executables
+scheduler
+scheduler.exe
+*.exe
+
+# Program output
+output.txt
+
+# VS Code settings
+.vscode/
