@@ -1,6 +1,16 @@
 CPU Scheduling Simulator
 =========================
 
+## Project Preview
+
+### Main Menu
+
+![Main Menu](images/main_menu.png)
+
+### Performance Comparison
+
+![Performance Comparison](images/Performance_Comparison.png)
+
 This project was built to understand how different CPU scheduling algorithms work. It allows users to enter process details, execute different scheduling algorithms, compare their performance, and view the calculated scheduling metrics.
 
 1. First Come First Serve (FCFS)
